@@ -6,7 +6,7 @@
 #    By: jlimones <jlimones@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/22 12:35:12 by jlimones          #+#    #+#              #
-#    Updated: 2022/09/23 10:35:16 by jlimones         ###   ########.fr        #
+#    Updated: 2022/09/26 11:17:40 by jlimones         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,6 +28,9 @@ SRC = ft_bzero.c \
 	  ft_strlcat.c \
 	  ft_toupper.c \
 	  ft_tolower.c \
+	  ft_strchr.c \
+	  ft_strrchr.c \
+	  ft_strncmp.c \
 
 INC = libft.h
 
