@@ -6,11 +6,15 @@
 /*   By: jlimones <jlimones@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/24 07:29:26 by jlimones          #+#    #+#             */
-/*   Updated: 2022/09/27 19:32:46 by jlimones         ###   ########.fr       */
+/*   Updated: 2022/09/28 10:09:19 by jlimones         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+La funcion strchr busca la primera coincidencia
+*/
 
 char	*ft_strchr(const char *str, int c)
 {
