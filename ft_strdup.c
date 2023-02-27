@@ -3,15 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlimones <jlimones@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jlimones <jlimones@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 07:53:19 by jlimones          #+#    #+#             */
-/*   Updated: 2022/09/27 08:43:44 by jlimones         ###   ########.fr       */
+/*   Updated: 2023/02/27 10:24:00 by jlimones         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief duplica una string.
+ * 
+ * @param s string a duplicar
+ * @return char* puntero a la nueva string.
+ */
 char	*ft_strdup(const char *s)
 {
 	char	*d;

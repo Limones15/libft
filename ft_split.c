@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlimones <jlimones@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jlimones <jlimones@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 20:26:03 by jlimones          #+#    #+#             */
-/*   Updated: 2022/09/28 15:27:28 by jlimones         ###   ########.fr       */
+/*   Updated: 2023/02/27 10:21:50 by jlimones         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,6 +52,14 @@ static char	*ft_calloc_string(char const *s, char c)
 	return (sub);
 }
 
+/**
+ * @brief recibe una string, lo separa por el caracter indicado 
+ * y lo guarda en una matriz
+ * 
+ * @param s string a separar
+ * @param c caracter por el que separar
+ * @return char** puntero a puntero de la matriz
+ */
 char	**ft_split(char const *s, char c)
 {
 	int		subs;

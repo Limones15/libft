@@ -3,15 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlimones <jlimones@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jlimones <jlimones@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 11:41:00 by jlimones          #+#    #+#             */
-/*   Updated: 2022/09/27 16:09:03 by jlimones         ###   ########.fr       */
+/*   Updated: 2023/02/27 10:25:05 by jlimones         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief concatena dos string
+ * 
+ * @param s1 string 1
+ * @param s2 string 2
+ * @return char* puntero a nueva string concatenada
+ */
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	int			i;

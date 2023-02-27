@@ -3,15 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlimones <jlimones@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jlimones <jlimones@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/22 22:38:32 by jlimones          #+#    #+#             */
-/*   Updated: 2022/09/23 10:13:07 by jlimones         ###   ########.fr       */
+/*   Updated: 2023/02/27 10:30:00 by jlimones         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief copia una cadena en otra y devuelve su tamaño
+ * 
+ * @param dst destino
+ * @param src string
+ * @param size tamaño que copiar
+ * @return size_t tamaño de la copia
+ */
 size_t	ft_strlcat(char *dst, char *src, size_t size)
 {
 	size_t	i;

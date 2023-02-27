@@ -3,15 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlimones <jlimones@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jlimones <jlimones@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/26 16:59:09 by jlimones          #+#    #+#             */
-/*   Updated: 2022/09/26 18:41:29 by jlimones         ###   ########.fr       */
+/*   Updated: 2023/02/27 09:34:20 by jlimones         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief 
+ * Esta funcion replica el funcionamiento de la funcion atoi, convierte 
+ * una string en un entero.
+ * @param str string que le pasamos a la funcion.
+ * @return int 
+ */
 int	ft_atoi(const char *str)
 {
 	long			res;

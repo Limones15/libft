@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlimones <jlimones@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jlimones <jlimones@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/28 15:49:37 by jlimones          #+#    #+#             */
-/*   Updated: 2022/09/28 20:48:59 by jlimones         ###   ########.fr       */
+/*   Updated: 2023/02/27 09:47:25 by jlimones         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,6 +50,13 @@ static char	*ft_neg(int n2)
 	return (str);
 }
 
+/**
+ * @brief replica la funcionalidad de la funcion itoa, convierte un 
+ * entero a string.
+ * 
+ * @param n entero a convertir.
+ * @return char* puntero a string
+ */
 char	*ft_itoa(int n)
 {
 	int				n2;
